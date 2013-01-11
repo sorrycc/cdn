@@ -1,0 +1,30 @@
+{
+  "name": "alihost",
+  "version": "0.0.1",
+  "description": "host your file.",
+  "main": "./lib/index.js",
+  "bin": {
+    "alihost": "./bin/alihost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afc163/alihost.git"
+  },
+  "keywords": [
+    "host",
+    "upload"
+  ],
+  "engines": {
+    "node": ">= 0.8.1"
+  },
+  "author": "afc163 <afc163@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "commander": "~1.1.1",
+    "async": "~0.1.22",
+    "colors": "~0.6.0",
+    "needle": "~0.4.7",
+    "shelljs": "~0.1.2"
+  }
+}
