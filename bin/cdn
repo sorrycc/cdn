@@ -10,5 +10,4 @@ program
     .version(pkg.version)
     .parse(process.argv);
 
-cdn(process.argv[2]);
-
+cdn(process.argv[2], function() {});
