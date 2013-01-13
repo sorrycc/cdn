@@ -4,11 +4,11 @@ var path = require('path'),
     fs = require('fs'),
     program = require('commander'),
     pkg = require('../package.json'),
-    index = require('../lib/index');
+    cdn = require('../lib/index');
 
 program
     .version(pkg.version)
     .parse(process.argv);
 
-index.main(process.argv[2], !program.verbose);
+cdn(process.argv[2]);
 

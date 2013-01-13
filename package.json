@@ -1,17 +1,17 @@
 {
-  "name": "alihost",
+  "name": "cdn",
   "version": "0.0.1",
-  "description": "host your file.",
+  "description": "host your file to alipay cdn.",
   "main": "./lib/index.js",
   "bin": {
-    "alihost": "./bin/alihost"
+    "cdn": "./bin/cdn"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/afc163/alihost.git"
+    "url": "git://github.com/afc163/cdn.git"
   },
   "keywords": [
-    "host",
+    "cdn",
     "upload"
   ],
   "engines": {
