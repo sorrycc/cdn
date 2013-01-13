@@ -27,6 +27,7 @@ Upload to alipay cdn successfully!
 
 就可以访问 [https://i.alipayobjects.com/e/201301/21MmTCjPoD.jpg](https://i.alipayobjects.com/e/201301/21MmTCjPoD.jpg) 了。
 
+如果你是`MacOS`用户，上传成功后 cdn 地址将会自动复制到剪贴板中。
 
 ### 部署网络地址
 
