@@ -20,9 +20,10 @@ $ cdn test.jpg
  
 ```
 Ready to upload your file » test.jpg
-Uploading ...
+  test.jpg @ image/jpeg 727.65Kb 5272×3192
+Uploading by xingmin.zhu...
 Upload to alipay cdn successfully!
-➠  https://i.alipayobjects.com/e/201301/21MmTCjPoD.jpg » test.jpg
+  ➠ https://i.alipayobjects.com/e/201301/21MmTCjPoD.jpg » test.jpg
 ```
 
 就可以访问 [https://i.alipayobjects.com/e/201301/21MmTCjPoD.jpg](https://i.alipayobjects.com/e/201301/21MmTCjPoD.jpg) 了。
@@ -35,6 +36,14 @@ Upload to alipay cdn successfully!
 $ cdn https://npmjs.org/static/npm.png
 ```
 
+### 更改上传用户
+
+请设置为自己的域账号前缀，默认为 `xingmin.zhu`。
+
+```js
+$ cdn --username ali.pay
+```
+
 ### 在 NodeJS 中
 
 ```js
@@ -44,3 +53,4 @@ cdn('/path/to/test.jpg', function(url) {
     // url -> https://i.alipayobjects.com/e/201301/21MmTCjPoD.jpg
 });
 ```
+

@@ -4,11 +4,18 @@ var path = require('path'),
     fs = require('fs'),
     program = require('commander'),
     pkg = require('../package.json'),
+    setUsername = require('../lib/setuser'),
     cdn = require('../lib/index');
 
 program
     .version(pkg.version)
     .usage('file [options]')
+    .option('-u --username <xingmin.zhu>')
     .parse(process.argv);
 
-cdn(process.argv[2], function() {});
+if (program.username) {
+    setUsername(program.username);
+    console.info('set username to ' + program.username);
+} else {
+    cdn(process.argv[2], function() {});
+}
