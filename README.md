@@ -19,10 +19,11 @@ $ cdn test.jpg
 ```
  
 ```
-Ready to upload your file » test.jpg
+Start check files.
+Ready to upload one file：
   test.jpg @ image/jpeg 727.65Kb 5272×3192
 Uploading by xingmin.zhu...
-Upload to alipay cdn successfully!
+Upload one file to alipay cdn successfully!
   ➠ https://i.alipayobjects.com/e/201301/21MmTCjPoD.jpg » test.jpg
 ```
 
@@ -36,11 +37,23 @@ Upload to alipay cdn successfully!
 $ cdn https://npmjs.org/static/npm.png
 ```
 
+### 多文件部署
+
+支持多文件上传和通配符的匹配。
+
+```
+$ cdn test1.js test2.js test3.css
+```
+
+```
+$ cdn *.jpg
+```
+
 ### 更改上传用户
 
 请设置为自己的域账号前缀，默认为 `xingmin.zhu`。
 
-```js
+```
 $ cdn --username ali.pay
 ```
 
