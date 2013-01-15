@@ -31,12 +31,6 @@ Upload one file to alipay cdn successfully!
 
 如果你是`MacOS`用户，上传成功后 cdn 地址将会自动复制到剪贴板中。
 
-### 部署网络地址
-
-```
-$ cdn https://npmjs.org/static/npm.png
-```
-
 ### 多文件部署
 
 支持多文件上传和通配符的匹配。
@@ -47,6 +41,22 @@ $ cdn test1.js test2.js test3.css
 
 ```
 $ cdn *.jpg
+```
+
+### 部署网络地址
+
+```
+$ cdn https://npmjs.org/static/npm.png
+```
+
+### 相对绝对路径
+
+```
+$ cdn ../../test.jpg
+```
+
+```
+$ cdn /home/admin/test.jpg
 ```
 
 ### 更改上传用户
