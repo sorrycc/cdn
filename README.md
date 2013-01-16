@@ -33,7 +33,7 @@ Upload one file to alipay cdn successfully!
 
 ### 多文件部署
 
-支持多文件上传和通配符的匹配。
+支持多文件上传和通配符的匹配。`0.0.3+`
 
 ```
 $ cdn test1.js test2.js test3.css
@@ -59,7 +59,7 @@ $ cdn ../../test.jpg
 $ cdn /home/admin/test.jpg
 ```
 
-### 更改上传用户
+### 更改上传用户 `0.0.2+`
 
 请设置为自己的域账号前缀，默认为 `xingmin.zhu`。
 
@@ -67,7 +67,7 @@ $ cdn /home/admin/test.jpg
 $ cdn --username ali.pay
 ```
 
-### 在 NodeJS 中
+### 在 NodeJS 中 `0.0.2+`
 
 ```js
 require('cdn');
