@@ -18,5 +18,8 @@ if (program.username) {
     console.info('Set username to ' + program.username);
 } else {
     var files = process.argv.slice(2);
-    cdn(files, function() {});
+    cdn(files, function() {
+        // force to exit
+        process.exit(0);
+    });
 }
