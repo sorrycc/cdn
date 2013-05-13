@@ -9,7 +9,7 @@ var path = require('path'),
 
 program
     .version(pkg.version)
-    .usage('file [options]')
+    .usage('file|url [options]')
     .option('-u --username <xingmin.zhu>', 'Set your useraname for upload')
     .parse(process.argv);
 
