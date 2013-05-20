@@ -1,5 +1,7 @@
 # CDN 
 
+[![NPM version](https://badge.fury.io/js/cdn.png)](http://badge.fury.io/js/cdn)
+
 支付宝静态文件托管服务，仅限内部使用。
 
 上传静态文件到支付宝 cdn 上，生成随机的地址返回。目前支持 .png .jpg .jpeg .gif .ico .swf .js .css .zip .pdf .flv .mp4 这些类型的文件。
