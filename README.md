@@ -13,7 +13,7 @@
 ## 安装
 
 ```
-$ sudo npm install cdn -g
+$ npm install cdn -g
 ```
 
 ## 使用
