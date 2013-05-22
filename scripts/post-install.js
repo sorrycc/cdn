@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 try {
-  console.log(111111);
   var spm = require('spm');
   spm.plugin.install({
     name: 'cdn',
