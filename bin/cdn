@@ -7,11 +7,30 @@ var path = require('path'),
     setUsername = require('../lib/setuser'),
     cdn = require('../lib/index');
 
+require('colorful').toxic();
+
 program
     .version(pkg.version)
     .usage('file|url [options]')
     .option('-u --username <xingmin.zhu>', 'Set your useraname for upload')
     .parse(process.argv);
+
+program.on('--help', function() {
+  console.log('  Examples:'.cyan);
+  console.log();
+  console.log('   $'.green + ' cdn example.png');
+  console.log('   $'.green + ' cdn ../example.png');
+  console.log('   $'.green + ' cdn ~/Desktop/example.png');
+  console.log('   $'.green + ' cdn *.jpg');
+  console.log('   $'.green + ' cdn https://npmjs.org/static/npm.png');
+  console.log();
+});
+
+program.parse(process.argv);
+
+if (!process.argv[2]) {
+  program.help();
+}
 
 if (program.username) {
     setUsername(program.username);
