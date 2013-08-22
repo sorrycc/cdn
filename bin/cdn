@@ -12,7 +12,6 @@ require('colorful').toxic();
 program
     .version(pkg.version)
     .usage('file|url [options]')
-    .option('-u --username <xingmin.zhu>', 'Set your useraname for upload')
     .parse(process.argv);
 
 program.on('--help', function() {
@@ -32,13 +31,8 @@ if (!process.argv[2]) {
   program.help();
 }
 
-if (program.username) {
-    setUsername(program.username);
-    console.info('Set username to ' + program.username);
-} else {
-    var files = process.argv.slice(2);
-    cdn(files, function() {
-        // force to exit
-        process.exit(0);
-    });
-}
+var files = process.argv.slice(2);
+cdn(files, function() {
+    // force to exit
+    process.exit(0);
+});
