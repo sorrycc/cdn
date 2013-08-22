@@ -1,5 +1,5 @@
 {
-    "url": "https://ecmng.alipay.com/home/uploadFile.json",
-    "bizName": "uploadFile",
-    "token":"xwcstga"
+  "url": "https://ecmng.alipay.com/home/uploadFile.json",
+  "bizName": "uploadFile",
+  "token":"xwcstga"
 }

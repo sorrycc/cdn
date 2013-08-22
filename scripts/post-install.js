@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+require('../lib/setconfig')();
+
 try {
   var spm = require('spm');
   spm.plugin.install({

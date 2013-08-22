@@ -4,7 +4,6 @@ var path = require('path'),
     fs = require('fs'),
     program = require('commander'),
     pkg = require('../package.json'),
-    setUsername = require('../lib/setuser'),
     cdn = require('../lib/index');
 
 require('colorful').toxic();
