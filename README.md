@@ -23,7 +23,7 @@ $ npm install cdn -g
 ```
 $ cdn test.jpg
 ```
- 
+
 ```
 Start check files.
 Ready to upload one file：
@@ -63,14 +63,6 @@ $ cdn ../../test.jpg
 
 ```
 $ cdn /home/admin/test.jpg
-```
-
-### 更改上传用户 `0.0.2+`
-
-请设置为自己的域账号前缀，默认为 `xingmin.zhu`。
-
-```
-$ cdn --username ali.pay
 ```
 
 ### 在 NodeJS 中 `0.0.2+`
