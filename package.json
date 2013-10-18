@@ -1,6 +1,6 @@
 {
   "name": "cdn",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Upload your files to alipay cdn.",
   "main": "./lib/index.js",
   "bin": {
@@ -26,7 +26,8 @@
     "colorful": "~2.1.0",
     "needle": "~0.6.1",
     "imageinfo": "~1.0.4",
-    "shelljs": "~0.2.6"
+    "shelljs": "~0.2.6",
+    "cliparoo": "~1.0.0"
   },
   "scripts": {
     "postinstall": "node scripts/post-install.js"
