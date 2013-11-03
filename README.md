@@ -75,3 +75,7 @@ cdn('/path/to/test.jpg', function(url) {
 });
 ```
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/afc163/cdn/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
