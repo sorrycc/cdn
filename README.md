@@ -2,7 +2,6 @@
 
 [![NPM version](https://badge.fury.io/js/cdn.png)](http://badge.fury.io/js/cdn)
 [![David Status](https://david-dm.org/afc163/cdn.png)](https://david-dm.org/afc163/cdn) 
-[![Dependency Status](https://gemnasium.com/afc163/cdn.png)](https://gemnasium.com/afc163/cdn)
 
 支付宝静态文件托管服务，仅限内部使用。
 
