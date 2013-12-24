@@ -7,7 +7,7 @@
 
 上传静态文件到支付宝 cdn 上，生成随机的地址返回。目前支持 .png .jpg .jpeg .gif .ico .swf .js .css .zip .pdf .flv .mp4 这些类型的文件。
 
-![demo](https://i.alipayobjects.com/e/201301/22tNik5rDY.png)
+![demo](https://i.alipayobjects.com/e/201312/1fOQnfM67D.png)
 
 ---
 
