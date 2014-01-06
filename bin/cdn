@@ -31,7 +31,7 @@ if (!process.argv[2]) {
 }
 
 var files = process.argv.slice(2);
-cdn(files, function() {
+cdn(files, function(err) {
     // force to exit
-    process.exit(0);
+    process.exit(err ? 1 : 0);
 });
