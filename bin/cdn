@@ -6,8 +6,6 @@ var path = require('path'),
     pkg = require('../package.json'),
     cdn = require('../lib/index');
 
-require('colorful').toxic();
-
 program
     .version(pkg.version)
     .usage('file|url [options]')
