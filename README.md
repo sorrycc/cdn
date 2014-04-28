@@ -69,7 +69,7 @@ $ cdn /home/admin/test.jpg
 ```js
 require('cdn');
 
-cdn('/path/to/test.jpg', function(url) {
+cdn('/path/to/test.jpg', function(err, url) {
     // url -> https://i.alipayobjects.com/e/201301/21MmTCjPoD.jpg
 });
 ```
