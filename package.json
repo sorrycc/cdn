@@ -1,6 +1,6 @@
 {
   "name": "cdn",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Upload your files to alipay cdn.",
   "main": "./lib/index.js",
   "bin": {
